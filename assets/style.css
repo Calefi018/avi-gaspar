@@ -1,0 +1,45 @@
+/*Classes Globais*/
+.removeListStyle {
+    list-style-type: none;
+}
+
+.removeTextDecoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Configurações do NAV*/
+nav div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Configurações do Footer*/
+.iconStyleFooter {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer li img {
+    width: 50px;
+}
+
