@@ -47,22 +47,3 @@ nav li > a:hover {
 footer li img {
     width: 50px;
 }
-
-.icone-link {
-    /* Estilos básicos para o link/ícone */
-    display: inline-block;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    transition: all 0.3s ease;
-
-    /* Sombra inicial */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para a base */
-}
-
-.icone-link:hover {
-    /* Efeito de elevação no hover */
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    background-color: #e0e0e0;
-}
