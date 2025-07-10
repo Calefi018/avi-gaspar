@@ -56,6 +56,9 @@ nav li:hover {
     color: #f4f4f9;
 }
 
+/*--------------------------------------------------Ajustes de imagem*/
+
+
 /*--------------------------------------------------Container nosso objetivo*/
 .about {
     border-radius: 8px;
@@ -66,7 +69,8 @@ nav li:hover {
     padding: 40px 20px;
     display: flex;
     align-items: center;
-    gap: 50px; 
+    gap: 50px;
+    margin: 10px;
 }
 
 .about div > h1 {
@@ -79,20 +83,19 @@ nav li:hover {
 
 /*----------------------------------------Section > container quem somos*/
 
-.whoWheAre {
+.whoWeAre {
     border-radius: 8px;
     background-color: #1e397ecb;
     color: #f4f4f9;
     padding: 40px 40px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 10px 25px 10px; 
 }
 
-.whoWheAre h1 {
+.whoWeAre h1 {
     margin-bottom: 15px;   
 }
 
-.whoWheAre p {
+.whoWeAre p {
     text-align: justify;
 }
 
@@ -119,3 +122,5 @@ footer a > img:hover {
 footer a > img {
     width: 50px;
 }
+
+
