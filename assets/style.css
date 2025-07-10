@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Configurações Globais*/
+/*-------------------------------------------Configurações Globais*/
 .removeListStyle {
     list-style-type: none;
 }
@@ -15,12 +15,11 @@
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif; /* Fonte para títulos */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 
-/*Configurações do NAV*/
+/*------------------------------------------Configurações do NAV*/
 nav div {
     display: flex;
     align-content: center;
@@ -51,19 +50,53 @@ nav li:hover {
     transform: scale(1.1);
 }
 
-/*Imagem banner fundo hero*/
-.bannerHero {
-    margin: auto;
+.navigation {
+    margin-bottom: 25px;
+    background-color: #1e397ecb;
+    color: #f4f4f9;
 }
 
-
-/*Quem somos*/
+/*--------------------------------------------------Container nosso objetivo*/
 .about {
-    
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #1e397ecb;
+    color: #f4f4f9;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px; 
 }
 
+.about div > h1 {
+    margin-bottom: 15px;
+}
 
-/*Configurações do Footer*/
+.about div > p {
+    text-align: justify;
+}
+
+/*----------------------------------------Section > container quem somos*/
+
+.whoWheAre {
+    border-radius: 8px;
+    background-color: #1e397ecb;
+    color: #f4f4f9;
+    padding: 40px 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.whoWheAre h1 {
+    margin-bottom: 15px;   
+}
+
+.whoWheAre p {
+    text-align: justify;
+}
+
+/*-----------------------------------------------Configurações do Footer*/
 .div_footer_estyle {
     background-color: #192a56;
     color: #f4f4f9;
