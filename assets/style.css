@@ -1,4 +1,10 @@
-/*Classes Globais*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Configurações Globais*/
 .removeListStyle {
     list-style-type: none;
 }
@@ -6,6 +12,12 @@
 .removeTextDecoration {
     text-decoration: none;
     color: inherit;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Fonte para títulos */
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 /*Configurações do NAV*/
@@ -22,7 +34,7 @@ nav ul {
 }
 
 nav li {
-    margin-left: 5px;
+    margin-left: 25px;
     margin-right: 5px;
 }
 
@@ -32,18 +44,45 @@ nav a {
 }
 
 nav li > a:hover { 
-    background-color: darkgrey;
-    text-decoration: underline;
+    background-color: #f39c12;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+/*Imagem banner fundo hero*/
+.bannerHero {
+    margin: auto;
+}
+
+
+/*Quem somos*/
+.about {
+    
 }
 
 
 /*Configurações do Footer*/
+.div_footer_estyle {
+    background-color: #192a56;
+    color: #f4f4f9;
+    text-align: center;
+    padding: 40px 20px;
+}
+
 .iconStyleFooter {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin: 8px 0px 8px 0px;
 }
 
-footer li img {
+footer a > img:hover {
+    transform: scale(1.1);
+    
+}
+
+footer a > img {
     width: 50px;
 }
