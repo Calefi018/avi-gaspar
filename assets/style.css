@@ -9,52 +9,44 @@
     list-style-type: none;
 }
 
-.removeTextDecoration {
-    text-decoration: none;
-    color: inherit;
-}
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    color: #1e397e;
 }
 
 /*------------------------------------------Configurações do NAV*/
-nav div {
+.navigation {
     display: flex;
-    align-content: center;
+    background-color: #1e397ecb;
+    color: #f4f4f9;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-nav ul {
+.removeListStyle {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
 }
 
-nav li {
-    margin-left: 25px;
-    margin-right: 5px;
-}
-
-nav a {
+.menuItens {
     text-decoration: none;
     color: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: inline-block;
 }
 
-nav li > a:hover { 
-    background-color: #f39c12;
-}
-
-nav li:hover {
+.menuItens:hover {
+    background-color: orange;
     transform: scale(1.1);
 }
 
-.navigation {
-    margin-bottom: 25px;
-    background-color: #1e397ecb;
-    color: #f4f4f9;
-}
 
 /*--------------------------------------------------Ajustes de imagem*/
 
@@ -64,8 +56,8 @@ nav li:hover {
     border-radius: 8px;
     margin-top: 25px;
     margin-bottom: 25px;
-    background-color: #1e397ecb;
-    color: #f4f4f9;
+
+    color: #333;
     padding: 40px 20px;
     display: flex;
     align-items: center;
@@ -78,25 +70,24 @@ nav li:hover {
 }
 
 .about div > p {
-    text-align: justify;
+    text-align: left;
 }
 
 /*----------------------------------------Section > container quem somos*/
 
 .whoWeAre {
-    border-radius: 8px;
-    background-color: #1e397ecb;
-    color: #f4f4f9;
-    padding: 40px 40px;
-    margin: 25px 10px 25px 10px; 
-}
-
-.whoWeAre h1 {
-    margin-bottom: 15px;   
+    color: #333;
+    background-color: rgba(197, 185, 185, 0.253);
+    padding: 120px 80px;
 }
 
 .whoWeAre p {
-    text-align: justify;
+    text-align: left;
+}
+
+.whoWeAre h2 {
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 /*-----------------------------------------------Configurações do Footer*/
@@ -114,6 +105,11 @@ nav li:hover {
     margin: 8px 0px 8px 0px;
 }
 
+footer p > a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer a > img:hover {
     transform: scale(1.1);
     
@@ -121,6 +117,7 @@ footer a > img:hover {
 
 footer a > img {
     width: 50px;
+    transition: all 0.3s ease;
 }
 
 
