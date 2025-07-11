@@ -28,6 +28,25 @@ h1, h2, h3 {
     color: #1e397e;
 }
 
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #1e397e;
+    cursor: pointer;
+    width: 30px;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #1e397e;
+    margin-top: 5px;
+}
+
 /*------------------------------------------Configurações do NAV*/
 .navigation {
     display: flex;
@@ -77,29 +96,40 @@ h1, h2, h3 {
     transform: scale(1.05);
 }
 
-/*--------------------------------------------------Ajustes de imagem*/
+@media (max-width: 750px) {
+    .hamburguer {
+        display: block;
+        z-index: 2000; 
+    }
 
+    .nav-cel {
+        z-index: 1500;
+        position: fixed;
+        top: 0;
+        right: 0;
 
-/*--------------------------------------------------Container nosso objetivo*/
-.about {
-    border-radius: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+        width: 100vw; 
+        height: 100vh; 
+        background-color: #f8f9fa;
 
-    color: #333;
-    padding: 40px 20px;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin: 10px;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
 
-.about div > h1 {
-    margin-bottom: 15px;
-}
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out; 
+    }
 
-.about div > p {
-    text-align: left;
+    .nav-cel.active {
+        transform: translateX(0);
+    }
+    
+    .nav-cel .nav-link {
+        font-size: 1.8rem;
+        color: #1e397e;
+    }
 }
 
 /*----------------------------------------Section > HERO */
@@ -150,6 +180,48 @@ h1, h2, h3 {
     padding-bottom: 8px;
 }
 
+/*--------------------------------------------------Container nosso objetivo*/
+.about {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #333;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+}
+
+.about div > h1 {
+    margin-bottom: 15px;
+}
+
+.about div > p {
+    text-align: left;
+}
+
+@media (max-width: 750px) {
+        .about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about iframe {
+            border-radius: 8px;
+            max-width: 100%;
+            height: 205px;
+            aspect-ratio: 16 / 9;
+            display: block;
+        }
+}
+
+@media (min-width: 750px) {
+        .about iframe {
+            border-radius: 8px;
+            width: 560px;
+            height: 315px;
+        }
+}
 /*-----------------------------------------------Configurações do Footer*/
 .div_footer_estyle {
     background-color: #192a56;
