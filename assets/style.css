@@ -99,7 +99,8 @@ h1, h2, h3 {
 @media (max-width: 750px) {
     .hamburguer {
         display: block;
-        z-index: 2000; 
+        z-index: 2000;
+        margin: 13px;
     }
 
     .nav-cel {
@@ -129,6 +130,10 @@ h1, h2, h3 {
     .nav-cel .nav-link {
         font-size: 1.8rem;
         color: #1e397e;
+    }
+
+    .navigation {
+        padding: 10px 25px;
     }
 }
 
@@ -177,7 +182,7 @@ h1, h2, h3 {
 
 .whoWeAre h2 {
     text-align: center;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 
 /*--------------------------------------------------Container nosso objetivo*/
@@ -192,7 +197,7 @@ h1, h2, h3 {
     margin: 10px;
 }
 
-.about div > h1 {
+.about div > h2 {
     margin-bottom: 15px;
 }
 
@@ -209,9 +214,13 @@ h1, h2, h3 {
         .about iframe {
             border-radius: 8px;
             max-width: 100%;
-            height: 205px;
+            height: 181px;
             aspect-ratio: 16 / 9;
             display: block;
+        }
+
+        .hero h2 {
+        font-size: 2.8rem;
         }
 }
 
