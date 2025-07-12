@@ -81,3 +81,53 @@
         text-align: center;
     }
 }
+
+/*------------------------------Botão copiar chave pix*/
+.key-container {
+    display: flex;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+
+#copy-button {
+    border-radius: 0 5px 5px 0;
+    padding: 12px 20px;
+    border: 1px solid #1e397e;
+    background-color: #1e397e;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#copy-button:hover {
+    background-color: #14285a;
+}
+
+#pix-key {
+    flex-grow: 1; /* Faz o input esticar e ocupar o espaço disponível */
+    padding: 12px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    background-color: #e9ecef;
+    color: #495057;
+    border-right: none;
+}   
+
+#copy-feedback {
+    display: block;
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: bold;
+    height: 1em;
+    font-size: 0.9rem;
+    transition: opacity 0.5 ease;
+}
+
+.cnpj {
+    padding: 10px 2px;
+    text-align: left;
+}
