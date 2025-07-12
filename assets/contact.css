@@ -1,0 +1,40 @@
+/*--------------------------------Tag Main*/
+.main-box {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------Titulo da página*/
+.title-contact {
+    text-align: center;
+    padding: 10px;
+}
+
+/*-------------------------------- Caixa contatos*/
+.content-box-contact {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    max-width: 1050px;
+}
+
+/*--------------------------------Div Endereço*/
+.address-box {
+    padding: 20px;
+}
+
+.address-text strong {
+    color: #1E397E;
+}
+
+/*--------------------------------Div Contato*/
+.contact-box {
+    padding: 20px;
+}
+
+.contact-box strong {
+    color: #1E397E;
+}
