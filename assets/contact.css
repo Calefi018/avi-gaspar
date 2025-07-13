@@ -3,15 +3,16 @@
     background-color: #F8F9FA;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /*--------------------------------Titulo da página*/
 .title-contact {
     text-align: center;
-    padding: 10px;
+    padding: 25px;
 }
 
-/*-------------------------------- Caixa contatos*/
+/*-------------------------------- Caixa contatos/endereços */
 .content-box-contact {
     background-color: white;
     border-radius: 10px;
@@ -34,7 +35,15 @@
 .contact-box {
     padding: 20px;
 }
-
-.contact-box strong {
-    color: #1E397E;
+.contact-box h3 {
+    padding-bottom: 4px;
 }
+
+.contact-box p {
+    padding-bottom: 15px;
+}
+
+.contact-box a {
+    text-decoration: none;
+}
+
