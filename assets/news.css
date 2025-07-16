@@ -1,0 +1,12 @@
+main {
+    padding: 20px;
+}
+
+section > article {
+    padding: 20px;
+}
+
+article > p,
+article > h2 {
+    padding: 5px;
+}

@@ -260,8 +260,3 @@ footer a > img {
     width: 50px;
     transition: all 0.3s ease;
 }
-
-/*------------------Esconder botão loja*/
-.nav-link-n {
-    display: none;
-}
