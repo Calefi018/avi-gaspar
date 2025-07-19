@@ -1,3 +1,8 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .button-return {
     display: inline-block;
@@ -33,6 +38,10 @@
     font-size: 0.9em;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
+}
+
+.article-news {
+    max-width: 1050px;
 }
 
 .article-body p {
