@@ -54,18 +54,21 @@ section {
     justify-content: space-evenly;
     background-color: white;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .title-sec-2 {
     font-size: 1.5rem;
     padding-top: 10px;
     padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .container-sec-2 {
     padding: 25px;
     max-width: 500px;
-
+    min-width: auto;
 }
 
 li {
@@ -73,6 +76,9 @@ li {
     padding-bottom: 10px;
 }
 
+.img-father {
+    padding: auto;
+}
 
 @media (max-width: 800px) {
     .sec-1 {
@@ -125,6 +131,7 @@ li {
 .title-sec-3 {
     font-size: 2rem;
     color: white;
+    padding-bottom: 20px;
 }
 
 .p-sec-3 {
@@ -146,6 +153,7 @@ li {
 
 .title-sec-4 {
     font-size: 2.2rem;
+    padding-bottom: 5px;
 }
 
 .p-sec-4 {
