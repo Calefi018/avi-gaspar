@@ -95,9 +95,10 @@ li {
         text-align: center; 
     }
 
-    .img-sec {
-        max-width: 500px;
-    }
+   .img-father {
+    display: flex;
+    justify-content: center;
+   }
 
     .title-sec-3, .title-sec-4 {
         font-size: 1.8rem;
