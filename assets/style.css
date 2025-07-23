@@ -177,7 +177,9 @@ h1, h2, h3 {
 }
 
 .whoWeAre p {
+    margin: auto;
     text-align: left;
+    max-width: 1050px;
 }
 
 .whoWeAre h2 {
@@ -203,6 +205,7 @@ h1, h2, h3 {
 
 .about div > p {
     text-align: left;
+    max-width: 900px;
 }
 
 @media (max-width: 768px) {
