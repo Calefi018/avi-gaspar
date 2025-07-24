@@ -20,7 +20,6 @@ main {
 }
 
 .article-news {
-    padding: 20px;
     margin: 20px;
     flex-direction: column;
     align-items: center;
@@ -52,6 +51,10 @@ main {
     line-height: 1.6;
 }
 
+.img-size {
+    width: 500px;
+}
+
 .article-img {
     max-width: 100%;
     padding: 10px;
@@ -68,52 +71,30 @@ main {
     font-weight: normal;
 }
 
-@media (max-width: 720px) {
-
-
-
-    /* Reduz o espaçamento geral do artigo */
-
-    .article-news {
-
-        padding: 10px;
-
-        margin: 10px 0;
-
-    }
-
-
-
-    /* Reduz o tamanho da fonte do título principal */
-
+@media (max-width: 768px) {
     .article-title {
-
         font-size: 2rem;
-
+        padding-left: 8px;
     }
-
-
-
-    /* Reduz o tamanho da fonte dos subtítulos */
 
     .subtitle {
-
+        padding-left: 8px;
         font-size: 1.5rem;
-
     }
-
-
-
-    /* Reduz o tamanho da fonte do corpo do texto */
 
     .article-body p {
-
         font-size: 1rem;
-
-        /* Alinha à esquerda no mobile, pois 'justify' pode criar espaços ruins */
-
         text-align: left;
-
+        padding-left: 8px;
     }
 
+    .img-size {
+        width: 300px;
+    }
+    .reference {
+    margin-left: 5px;
+    }
+    .button-return {
+        margin-left: 10px;
+    }
 }
