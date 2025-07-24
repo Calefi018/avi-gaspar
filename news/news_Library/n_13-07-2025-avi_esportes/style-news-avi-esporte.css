@@ -70,13 +70,39 @@ main {
     font-weight: normal;
 }
 
-@media (max-width: 720px) {
-    .article-img,
-    .article-news,
-    .article-p,
-    .article-title,
-    .article-body {
-        margin: auto;
-        padding: auto;
+@media (max-width: 768px) {
+
+    /* 1. Ajusta o contêiner principal do artigo */
+    .content-news {
+       max-width: 100%;
     }
-}
+
+    /* 2. Torna a imagem de cabeçalho responsiva */
+    .content-news > img {
+        width: 100%;     /* A imagem ocupará toda a largura da tela */
+        height: auto;    /* A altura se ajustará automaticamente para manter a proporção */
+        border-radius: 0; /* Opcional: remove as bordas para um visual de ponta a ponta */
+    }
+
+    /* 3. Ajusta o título para telas pequenas */
+    .content-news > h1 {
+        font-size: 2rem;   /* Reduz o tamanho da fonte para não ficar gigante */
+        padding: 20px;     /* Simplifica o padding para ter um respiro igual em todos os lados */
+        margin-left: 0;    /* Remove a margem fixa da esquerda */
+        text-align: left; /* Alinha o texto à esquerda, que é melhor para leitura em mobile */
+    }
+
+    /* 4. Ajusta os parágrafos do texto */
+    .content-news > p {
+        /* Remove as margens laterais fixas que "espremiam" o texto */
+        margin-left: 0;
+        margin-right: 0;
+        /* Adiciona um padding lateral para o texto não colar nas bordas da tela */
+        padding: 0 20px 20px 20px; 
+    }
+
+    /* 5. Garante que o botão "Voltar" tenha um bom espaçamento */
+    .button-return {
+        margin: 20px 0 0 20px; /* Adiciona margem em cima e na esquerda */
+    }
+        }
