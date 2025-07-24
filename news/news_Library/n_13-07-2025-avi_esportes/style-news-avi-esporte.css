@@ -70,3 +70,13 @@ main {
     font-weight: normal;
 }
 
+@media (max-width: 720px) {
+    .article-img,
+    .article-news,
+    .article-p,
+    .article-title,
+    .article-body {
+        margin: auto;
+        padding: auto;
+    }
+}
