@@ -53,13 +53,10 @@ main {
 }
 
 .article-img {
+    max-width: 100%;
+    padding: 10px;
     display: flex;
     justify-content: center;
-}
-
-.article-img > img {
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 .subtitle {
