@@ -72,37 +72,50 @@ main {
 
 @media (max-width: 720px) {
 
-    /* 1. Ajusta o contêiner principal do artigo */
-    .content-news {
-       max-width: 100%;
+
+
+    /* Reduz o espaçamento geral do artigo */
+
+    .article-news {
+
+        padding: 10px;
+
+        margin: 10px 0;
+
     }
 
-    /* 2. Torna a imagem de cabeçalho responsiva */
-    .content-news > img {
-        width: 100%;     /* A imagem ocupará toda a largura da tela */
-        height: auto;    /* A altura se ajustará automaticamente para manter a proporção */
-        border-radius: 0; /* Opcional: remove as bordas para um visual de ponta a ponta */
+
+
+    /* Reduz o tamanho da fonte do título principal */
+
+    .article-title {
+
+        font-size: 2rem;
+
     }
 
-    /* 3. Ajusta o título para telas pequenas */
-    .content-news > h1 {
-        font-size: 2rem;   /* Reduz o tamanho da fonte para não ficar gigante */
-        padding: 20px;     /* Simplifica o padding para ter um respiro igual em todos os lados */
-        margin-left: 0;    /* Remove a margem fixa da esquerda */
-        text-align: left; /* Alinha o texto à esquerda, que é melhor para leitura em mobile */
+
+
+    /* Reduz o tamanho da fonte dos subtítulos */
+
+    .subtitle {
+
+        font-size: 1.5rem;
+
     }
 
-    /* 4. Ajusta os parágrafos do texto */
-    .content-news > p {
-        /* Remove as margens laterais fixas que "espremiam" o texto */
-        margin-left: 0;
-        margin-right: 0;
-        /* Adiciona um padding lateral para o texto não colar nas bordas da tela */
-        padding: 0 20px 20px 20px; 
+
+
+    /* Reduz o tamanho da fonte do corpo do texto */
+
+    .article-body p {
+
+        font-size: 1rem;
+
+        /* Alinha à esquerda no mobile, pois 'justify' pode criar espaços ruins */
+
+        text-align: left;
+
     }
 
-    /* 5. Garante que o botão "Voltar" tenha um bom espaçamento */
-    .button-return {
-        margin: 20px 0 0 20px; /* Adiciona margem em cima e na esquerda */
-    }
-        }
+}
