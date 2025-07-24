@@ -55,6 +55,7 @@ main {
 .article-img {
     max-width: 100%;
     padding: 10px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
