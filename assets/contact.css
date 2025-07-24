@@ -31,6 +31,9 @@
     color: #1E397E;
 }
 
+address > p {
+    padding-top: 10px;
+}
 /*--------------------------------Div Contato*/
 .contact-box {
     padding: 20px;

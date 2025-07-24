@@ -36,17 +36,20 @@ main {
 .article-p {
     color: #777;
     font-size: 0.9em;
+    padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
 }
 
 .article-news {
-    max-width: 1050px;
+    max-width: 800px;
 }
 
 .article-body p {
-    padding-top: 20px;
+    color: #333333;
+    font-size: 1rem;
     text-align: justify;
+    line-height: 1.6;
 }
 
 .article-img {
@@ -58,3 +61,12 @@ main {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.subtitle {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
