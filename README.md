@@ -58,4 +58,19 @@ Como este é um site estático, não há necessidade de um passo de "build".
 
 ---
 
-## 👨
+## 👨‍💻 Autor
+
+Criado e desenvolvido com dedicação por **Cristian Calefi**.
+
+* **GitHub:** [@Calefi018](https://github.com/Calefi018)
+* **(Opcional) LinkedIn:** (Se você tiver, pode adicionar o link aqui)
+
+---
+
+## ⚖️ Direitos Autorais e Uso
+
+Este projeto é um trabalho original e seu código-fonte é protegido por leis de direitos autorais.
+
+**© 2025 Cristian Calefi. Todos os Direitos Reservados.**
+
+O conteúdo deste repositório é disponibilizado publicamente apenas para fins de visualização do portfólio e para a hospedagem do site via GitHub Pages. Nenhuma parte deste trabalho (código, design ou conteúdo) pode ser copiada, modificada, distribuída ou usada para quaisquer fins, comerciais ou não, sem a permissão explícita e por escrito do autor.
