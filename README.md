@@ -63,7 +63,7 @@ Como este é um site estático, não há necessidade de um passo de "build".
 Criado e desenvolvido com dedicação por **Cristian Calefi**.
 
 * **GitHub:** [@Calefi018](https://github.com/Calefi018)
-* **(Opcional) LinkedIn:** (Se você tiver, pode adicionar o link aqui)
+* **LinkedIn:** (https://www.linkedin.com/in/cristian-calefi-72b9431a7/)
 
 ---
 
