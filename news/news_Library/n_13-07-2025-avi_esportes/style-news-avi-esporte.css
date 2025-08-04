@@ -23,6 +23,7 @@ main {
     margin: 20px;
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
 }
 
 .article-title {
@@ -38,10 +39,6 @@ main {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
-}
-
-.article-news {
-    max-width: 800px;
 }
 
 .article-body p {
@@ -71,6 +68,19 @@ main {
     font-weight: normal;
 }
 
+.reference {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #000;
+    border-left: 1px solid #000000bd;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 @media (max-width: 768px) {
     .article-title {
         font-size: 2rem;
@@ -91,10 +101,17 @@ main {
     .img-size {
         width: 300px;
     }
-    .reference {
-    margin-left: 5px;
-    }
+
     .button-return {
         margin-left: 10px;
+    }
+
+    .article-news {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .reference a {
+        word-break: break-all;
     }
 }

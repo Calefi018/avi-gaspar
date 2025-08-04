@@ -28,18 +28,7 @@ h1, h2, h3 {
     color: #1e397e;
 }
 /*------------------------------ Classes GLOBAIS*/
-.reference {
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 700px;
-    font-size: 1rem;
-    line-height: 1.4;
-    color: #000;
-    border-left: 1px solid #000000bd;
-    background-color: #f9f9f9;
-    padding: 5px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
+
 /*----------------------------------------------*/
 .hamburguer {
     display: none;
